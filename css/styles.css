@@ -1,6 +1,16 @@
-p {
+#initially-showing {
+  display: none;
+}
+
+.clickable {
   /* text-emphasis-style: circle; */
   font-weight: bold;
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
 }
 
 img {
